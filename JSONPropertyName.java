@@ -40,8 +40,8 @@ import java.lang.annotation.Target;
  * will have the Bean parser fall back to the default field name processing.
  */
 public @interface JSONPropertyName {
-    /**
-     * @return The name of the property as to be used in the JSON Object.
-     */
-    String value();
+	/**
+	 * @return The name of the property as to be used in the JSON Object.
+	 */
+	String value();
 }
